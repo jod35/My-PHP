@@ -31,6 +31,29 @@ switch ($option){
 }
 
 
+#an alternative syntax
+switch ($option):
+  case 1:
+  echo "Send Money";
+  break;
+  case 2:
+  echo "Deposit Money";
+  break;
+  case 3:
+  echo "Buy Airtime";                   //just incase we forgot the curly braces at the end of switch
+   break;
+  case 0:
+  echo "Exit";
+  break;
+
+  default:
+  echo "Unknown Option";
+  break;
+
+endswitch;
+
+
+
 
 
 
