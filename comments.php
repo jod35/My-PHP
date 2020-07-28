@@ -1,15 +1,17 @@
 <?php
-//comments make php code not to be run
-//They are mostly used to document
-//double forward slashes make single line comments
+    //This is a comment.
+    $x=10;
 
-//multiine comments
+    $x+=10;
 
+    echo "x is $x";
+    /* this 
+    is 
+    a 
+    multi
+    line
+    comment
+    */
 
-/*this
-is a
-multiine
-comment
-*/
-
- ?>
+    print "Another comment right there";
+?>

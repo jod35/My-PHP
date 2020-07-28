@@ -1,10 +1,3 @@
 <?php
-
-
-
-echo "hELO";
-
-
-
-
- ?>
+    echo "Hello"
+?>
